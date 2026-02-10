@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../user.css/style1.css">
+    <title>User</title>
+</head>
+<body>
+    <form action="../controller.php" method="post">
+        <p>Registro</p>
+        <label>Ingresa tu nombre</label>
+        <input type="text" pattern="[A-Za-z\s]+"  id="nom" name="nom">
+        <label > Apellido </label>
+        <input type="text"  pattern="[A-Za-z\s]+" id="ape" name="ape">
+        <label >telefono</label>
+        <input type="number" id="tel" name="tel">
+        <label> correo</label>
+        <input type="email" id="correo" name="correo">
+        <label >contraseña</label>
+        <input type="password" id="contra" name="contra">
+       <a href="/user/home.html"> <button type="submit">Ingresar</button></a>
+    </form>
+</body>
+</html>
